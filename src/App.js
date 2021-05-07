@@ -4,8 +4,8 @@ import Board from './components/appBoard/content';
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <header className="App-header" />
+      <Navbar />
       <Board />
     </div>
   );
