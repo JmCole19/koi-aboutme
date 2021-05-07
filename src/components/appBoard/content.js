@@ -1,15 +1,17 @@
 import React from 'react';
-import backStyle from './background';
+import backStyle from '../../css/stylesjs/background';
+import contentStyle from '../../css/stylesjs/contentCss';
 
 export default function Board() {
     const background = backStyle();
+    const style = contentStyle();
 
     return (
         <div className={background.root}>
             <div>
                 <div className='top'>
-                    <h2>About Koi</h2>
-                    <p>Koi brings back personal ownership, rewarding creators for quality through the revolutionary attention economy.</p>
+                    <h2 className={style.title}>About Koi</h2>
+                    <p className={style.titleDescrip}>Koi brings back personal ownership, rewarding creators for quality through the revolutionary attention economy.</p>
                 </div>
                 <div>
                     <h3>What is Koi?</h3>
@@ -25,15 +27,15 @@ export default function Board() {
                 <div>
                     <div>
                         <p>Registor your NFT!</p>
-                        <button>creators</button>
+                        <button className={style.circles}>creators</button>
                     </div>
                     <div>
                         <p>Run a node!</p>
-                        <button>operators</button>
+                        <button className={style.circles}>operators</button>
                     </div>
                     <div>
                         <p>Get start with the SDK</p>
-                        <button>devs</button>
+                        <button className={style.circles}>devs</button>
                     </div>
                 </div>
             </div>
@@ -52,11 +54,11 @@ export default function Board() {
                 </div>
                 <div>
                     <div>
-                        <image />
+                        <image className={style.circles}/>
                         <h3>Create and ensure universal, equitable access to quality information</h3>
                     </div>
                     <div>
-                        <image />
+                        <image className={style.circles}/>
                         <h3>Reward creators directly for the content they produce</h3>
                     </div>
                 </div>
@@ -117,7 +119,7 @@ export default function Board() {
             <div className='teamCard'>
                 <h3>The Koi Team</h3>
                 <div>
-                    <image />
+                    <image className={style.circles}/>
                     <h5>Placeholder</h5>
                     <p>Placeholder</p>
                 </div>
