@@ -13,7 +13,7 @@ const classes = useStyles();
   return (
     <div className={classes.root}>
       <AppBar position="static">
-        <Toolbar>
+        <Toolbar color='#030332'>
           <IconButton edge="start" className={classes.fish} color="inherit" aria-label="menu">
             <Button>Fish</Button>
           </IconButton>
