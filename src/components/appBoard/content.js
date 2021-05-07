@@ -9,6 +9,7 @@ export default function Board() {
 
     return (
         <div id='top-gradient'>
+            <image id='web' />
             <h2 id='title'>About Koi</h2>
             <p id='title-text'>Koi brings back personal ownership, rewarding creators for quality through the revolutionary attention economy.</p>
             <div id='what-koi'>
