@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../css/content.css';
 import useStyles from '../../css/stylesjs/navbarCss';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -13,9 +14,9 @@ const classes = useStyles();
   return (
     <div className={classes.root}>
       <AppBar position="static">
-        <Toolbar color='#030332'>
-          <IconButton edge="start" className={classes.fish} color="inherit" aria-label="menu">
-            <Button>Fish</Button>
+        <Toolbar id='nav-color'>
+          <IconButton edge="start" color="inherit" aria-label="menu">
+            <Button id='fish'>Fish</Button>
           </IconButton>
           <Typography variant="h6" className={classes.title}>
             OpenKoi

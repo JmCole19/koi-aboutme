@@ -1,41 +1,40 @@
 import React from 'react';
+import '../../css/content.css';
 import backStyle from '../../css/stylesjs/background';
-import contentStyle from '../../css/stylesjs/contentCss';
 
 export default function Board() {
     const background = backStyle();
-    const style = contentStyle();
 
     return (
         <div className={background.root}>
             <div>
                 <div className='top'>
-                    <h2 className={style.title}>About Koi</h2>
-                    <p className={style.titleDescrip}>Koi brings back personal ownership, rewarding creators for quality through the revolutionary attention economy.</p>
+                    <h2>About Koi</h2>
+                    <p>Koi brings back personal ownership, rewarding creators for quality through the revolutionary attention economy.</p>
                 </div>
                 <div>
                     <h3>What is Koi?</h3>
                     <p>Koi is a new ecosystem and economy based on attention. The ecosystem comprises three main parts:
-                        <li>
-                            <ul>Creators</ul>
-                            <ul>Node Agents</ul>
-                            <ul>Developers</ul>
-                        </li>
+                            <div>
+                                <button id='ellipse-181'>Creators</button>
+                                <button id='ellipse-182'>Node Agents</button>
+                                <button id='ellipse-183'>Developers</button>
+                            </div>
                         To keep the ecosystem thriving, KOI tokens are systematically exchanged between different participants.
                     </p>
                 </div>
                 <div>
                     <div>
                         <p>Registor your NFT!</p>
-                        <button className={style.circles}>creators</button>
+                        <button>creators</button>
                     </div>
                     <div>
                         <p>Run a node!</p>
-                        <button className={style.circles}>operators</button>
+                        <button>operators</button>
                     </div>
                     <div>
                         <p>Get start with the SDK</p>
-                        <button className={style.circles}>devs</button>
+                        <button>devs</button>
                     </div>
                 </div>
             </div>
@@ -54,11 +53,11 @@ export default function Board() {
                 </div>
                 <div>
                     <div>
-                        <image className={style.circles}/>
+                        <image />
                         <h3>Create and ensure universal, equitable access to quality information</h3>
                     </div>
                     <div>
-                        <image className={style.circles}/>
+                        <image />
                         <h3>Reward creators directly for the content they produce</h3>
                     </div>
                 </div>
@@ -103,15 +102,15 @@ export default function Board() {
                 </div>
                 <div>
                     <p>
-                    We’ve become so used to “free” stuff on the internet that we (our data) have become the product. 
-                    In this model creators lose out, sometimes pursuing other careers because creating isn’t not sustainable in the long term. 
+                        We’ve become so used to “free” stuff on the internet that we (our data) have become the product.
+                        In this model creators lose out, sometimes pursuing other careers because creating isn’t not sustainable in the long term.
                     <strong> We want to help creators get paid for their work, and allow them to keep making more work that people love.</strong>
                     </p>
                 </div>
                 <div className='green card'>
                     <p>
-                    If you notice a way in which we could be doing a better job at embodying and promoting these values, please reach out to us. 
-                    We are always looking for feedback on our blindspots.
+                        If you notice a way in which we could be doing a better job at embodying and promoting these values, please reach out to us.
+                        We are always looking for feedback on our blindspots.
                     </p>
                     <button href='mailto:hello@openkoi.com'>Get in Touch</button>
                 </div>
@@ -119,15 +118,15 @@ export default function Board() {
             <div className='teamCard'>
                 <h3>The Koi Team</h3>
                 <div>
-                    <image className={style.circles}/>
+                    <image />
                     <h5>Placeholder</h5>
                     <p>Placeholder</p>
                 </div>
                 <div className='join'>
-                <p>
-                <strong>Want to join the team?</strong> 
+                    <p>
+                        <strong>Want to join the team?</strong>
                 Email your resume and a few words about why you love Koi and would be a great addition to our team to <a href='mailto:jobs@openkoi.com'>jobs@openkoi.com</a>.</p>
-                <button href='mailto:jobs@openkoi.com'>Apply</button>
+                    <button href='mailto:jobs@openkoi.com'>Apply</button>
                 </div>
             </div>
             <div className='footer'>

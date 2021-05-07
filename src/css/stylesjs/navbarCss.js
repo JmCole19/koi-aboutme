@@ -30,17 +30,8 @@ const useStyles = makeStyles((theme) => ({
       background: '#171753',
       border: '1.5px solid #FFFFFF',
       boxSizing: 'border-box',
-
-// button blur
       boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.16)',
       borderRadius: '4px',
-    },
-    fish: {
-      background: '#00FFFF',
-      fontSize: '12px',
-      color: "FFA500",
-      marginRight: theme.spacing(1),
-      flexShrink: '10'
     },
   }));
 

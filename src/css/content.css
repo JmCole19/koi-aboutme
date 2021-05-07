@@ -1,0 +1,46 @@
+#ellipse-181 {
+    height: 136px;
+    width: 136px;
+    left: 86px;
+    top: 687px;
+    border-radius: 50%;
+    background: #5ED9D1;
+    opacity: 0.4;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.16);
+}
+
+#ellipse-182 {
+    width: 136px;
+    height: 136px;
+    left: 246px;
+    top: 687px;
+    border-radius: 50%;
+    background: #237B75;
+    opacity: 0.4;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.16);
+}
+
+#ellipse-183 {
+    width: 136px;
+    height: 136px;
+    left: 406px;
+    top: 687px;
+    border-radius: 50%;
+    background: #49CE8B;
+    opacity: 0.4;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.16);
+}
+
+#fish {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    text-decoration: orange;
+    opacity: 0.4;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.16);
+}
+
+#nav-color {
+    background: linear-gradient(90deg, #030332 0%, #171753 100%);
+}
