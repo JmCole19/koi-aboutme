@@ -1,13 +1,12 @@
 import React from 'react';
 import Navbar from './components/navbar/navbar';
-
+import Board from './components/appBoard/topContent';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
       <Navbar />
+      <header className="App-header" />
+      <Board />
     </div>
   );
 }

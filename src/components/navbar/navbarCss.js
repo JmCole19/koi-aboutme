@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
       fontSize: '12px',
       color: "FFA500",
       marginRight: theme.spacing(1),
-      flexShrink: '10',
+      flexShrink: '10'
     },
   }));
 
