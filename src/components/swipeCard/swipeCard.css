@@ -1,0 +1,25 @@
+.ellipse {
+    color: orange;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.ellipse-selected {
+    color: purple;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+}
+
+.selector {
+    background: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    align-self: center;
+    color: black;
+}
+
+#selected {
+    color: purple;
+}

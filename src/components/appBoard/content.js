@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../css/content.css';
+import SwipeCard from '../swipeCard/swipecard.js';
 // import backStyle from '../../css/stylesjs/background';
 
 export default function Board() {
@@ -122,7 +123,7 @@ export default function Board() {
                 {/* ----------------------------- */}
 
                 <div id='swipe-card'>
-                    <p>placeholder for swipecard location</p>
+                    <SwipeCard />
                 </div>
 
                 {/* ----------------------------- */}
