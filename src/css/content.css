@@ -3,6 +3,10 @@
     overflow: hidden;
 }
 
+#text-color {
+    color: white;
+}
+
 .circle {
     width: 102px;
     height: 102px;

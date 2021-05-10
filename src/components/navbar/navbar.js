@@ -21,16 +21,16 @@ function Navbar() {
             </IconButton>
           </Typography>
           <IconButton edge="end" className={classes.menuButton} color="inherit" aria-label="option">
-            <Button className={classes.smallButton}>Run a node</Button>
+            <Button id='text-color' className={classes.smallButton}>Run a node</Button>
           </IconButton>
           <IconButton edge="end" className={classes.menuButton} color="inherit" aria-label="option">
-            <Button className={classes.smallButton}>Framework</Button>
+            <Button id='text-color' className={classes.smallButton}>Framework</Button>
           </IconButton>
           <IconButton edge="end" className={classes.menuButton} color="inherit" aria-label="option">
-            <Button className={classes.smallButton}>NFT's</Button>
+            <Button id='text-color' className={classes.smallButton}>NFT's</Button>
           </IconButton >
           <div className={classes.rectangle}>
-            <Button className={classes.download}>Download</Button>
+            <Button id='text-color' className={classes.download}>Download</Button>
           </div>
         </Toolbar>
       </AppBar>
