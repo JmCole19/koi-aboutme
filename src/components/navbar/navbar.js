@@ -9,17 +9,16 @@ import IconButton from '@material-ui/core/IconButton';
 
 
 function Navbar() {
-const classes = useStyles();
+  const classes = useStyles();
 
   return (
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar id='nav-color'>
-          <IconButton edge="start" color="inherit" aria-label="menu">
-            <Button id='fish'>Fish</Button>
-          </IconButton>
           <Typography variant="h6" className={classes.title}>
-            OpenKoi
+            <IconButton edge="start" color="inherit" aria-label="menu">
+              <Button id='fish'>Fish</Button>
+            </IconButton>
           </Typography>
           <IconButton edge="end" className={classes.menuButton} color="inherit" aria-label="option">
             <Button className={classes.smallButton}>Run a node</Button>
@@ -31,7 +30,7 @@ const classes = useStyles();
             <Button className={classes.smallButton}>NFT's</Button>
           </IconButton >
           <div className={classes.rectangle}>
-          <Button className={classes.download}>Download</Button>
+            <Button className={classes.download}>Download</Button>
           </div>
         </Toolbar>
       </AppBar>

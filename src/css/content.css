@@ -63,9 +63,10 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: aqua;
-    text-decoration: orange;
-    opacity: 0.4;
+    left: 50px;
+    background-color: rgba(0, 255, 255, 0.527);
+    color: white;
+    /* opacity: 0.4; */
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -77,7 +78,7 @@
     position: absolute;
     width: 458px;
     height: 56px;
-    right: 257px;
+    right: 407px;
     top: 261px;
     font-family: Catamaran;
     font-style: normal;
@@ -92,7 +93,7 @@
     position: absolute;
     width: 601px;
     height: 72px;
-    right: 114px;
+    right: 264px;
     top: 321px;
     font-family: Catamaran;
     font-style: normal;
@@ -114,54 +115,53 @@
 }
 
 #what-koi {
-    position: absolute;
+    position: relative;
     width: 587px;
     height: 32px;
-    left: 100px;
+    left: 150px;
     top: 556px;
 }
 
-/* #group-246 {
-    position: absolute;
-    width: 513px;
-    height: 238px;
-    left: 618px;
-    top: 641px;
-} */
+#group-246 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 300px;
+    top: 573px;
+}
 
 #ellipse-176 {
-    position: absolute;
+    position: relative;
     width: 82px;
-    height: 82px;
-    left: 989px;
-    top: 673px;
+    height: 82px; 
+    top: 100px;
     background: #C4C4C4;
 }
 
 #ellipse-177 {
-    position: absolute;
+    position: relative;
     width: 82px;
     height: 82px;
-    left: 910px;
-    top: 781px;
+    left: 2px;
     background: #C4C4C4;
 }
 
 #ellipse-178 {
-    position: absolute;
+    position: relative;
     width: 82px;
     height: 82px;
-    left: 1071px;
-    top: 781px;
+    top: 100px;
+    right: 2px;
     background: #C4C4C4;
 }
 
+
 #mid-attention {
-    position: absolute;
+    position: relative;
     width: 720px;
     height: 95px;
-    right: 226px;
-    top: 982px;
+    left: 30%;
+    top: 832px;
 }
 
 /* #mid-content {
@@ -173,15 +173,15 @@
 } */
 
 #mission {
-    position: absolute;
+    position: relative;
     width: 587px;
     height: 32px;
-    left: 100px;
-    top: 1210px;
+    left: 150px;
+    top: 1010px;
 }
 
 #mission-ops {
-    position: absolute;
+    position: relative;
     width: 399px;
     height: 64px;
     right: 630px;
@@ -190,21 +190,36 @@
     flex-direction: row;
 }
 
+#miss1 {
+    position: relative;
+    top: 1080px;
+    left: 1150px;
+    flex-direction: column;
+    flex: 20%;
+}
+
+#miss2 {
+    position: relative;
+    top: 1000px;
+    flex: 60%;
+    left: 450px;
+    flex-direction: column;
+}
+
 #lower-177 {
     position: absolute;
+    left: 100px;
     width: 82px;
     height: 82px;
-    left: 360px;
-    top: 1318px;
     background: #C4C4C4;
 }
 
 #ops-text-one {
-    position: absolute;
+    position: relative;
+    top: 100px;
+    right: 50px;
     width: 399px;
     height: 64px;
-    right: 830px;
-    top: 1416px;
     font-family: Catamaran;
     font-style: normal;
     font-weight: 600;
@@ -216,20 +231,18 @@
 }
 
 #ellipse-184 {
-    position: absolute;
+    position: relative;
+    left: 100px;
     width: 82px;
     height: 82px;
-    left: 950px;
-    top: 1318px;
     background: #C4C4C4;
 }
 
 #ops-text-two {
-    position: absolute;
+    position: relative;
     width: 399px;
     height: 64px;
-    right: 250px;
-    top: 1416px;
+    right: 50px;
     font-family: Catamaran;
     font-style: normal;
     font-weight: 600;
@@ -241,11 +254,11 @@
 }
 
 #special {
-    position: absolute;
+    position: relative;
     width: 280px;
     height: 108px;
-    right: 959px;
-    top: 1716px;
+    left: 159px;
+    top: 1316px;
 }
 
 #special-font {
@@ -262,24 +275,24 @@
     position: absolute;
     width: 687px;
     height: 84px;
-    right: 365px;
-    top: 1553px;
+    left: 30%;
+    top: 1653px;
 }
 
 #access {
-    position: absolute;
+    position: relative;
     width: 578px;
     height: 140px;
-    right: 100px;
-    top: 1716px;
+    left: 60%;
+    top: 1176px;
 }
 
 #value {
-    position: absolute;
+    position: relative;
     width: 587px;
     height: 32px;
-    left: 422px;
-    top: 2033px;
+    left: 33%;
+    top: 1333px;
     text-align: center;
 }
 
@@ -292,78 +305,75 @@
     text-align: center;
 }
 
-/* #mid-lower {
-    position: absolute;
-    width: 102px;
-    height: 102px;
-    left: 683px;
-    top: 2183px;
-} */
-
 #ellipse-206 {
     box-shadow: 0px 2px 24px 3px rgba(255, 165, 75, 0.75);
 }
 
 #ellipse-206-location {
-    position: absolute;
-    left: 433px;
-    top: 2183px;
+    position: relative;
+    left: 633px;
+    top: 1413px;
     /* box-shadow: 0px 2px 24px 3px rgba(255, 165, 75, 0.75); */
 }
 
 #ellipse-201 {
-    position: absolute;
-    left: 675px;
-    top: 2183px;
+    position: relative;
+    left: 875px;
+    top: 1250px;
 }
 
 #ellipse-202 {
-    position: absolute;
-    left: 917px;
-    top: 2183px;
+    position: relative;
+    left: 1117px;
+    top: 1083px;
 }
 
 #swipe-card {
     position: absolute;
     width: 100%;
-    height: 248px;
+    height: 188px;
     left: 0px;
-    top: 2369px;
+    top: 2569px;
+    text-align: center;
     background: #FFFFFF;
     box-shadow: 0px 2px 24px 2px rgba(0, 0, 0, 0.16);
 }
 
 #create-card {
-    position: absolute;
+    position: relative;
     width: 720px;
     height: 112px;
-    right: 216px;
-    top: 2685px;
+    left: 31%;
+    top: 1485px;
+    text-align: center;
 }
 
 #green-card {
     position: absolute;
+    text-align: center;
     width: 100%;
-    height: 163px;
+    height: 100px;
     left: 0px;
-    top: 2873px;
+    top: 3073px;
     background: #9BE7C4;
 }
 
 #team {
-    position: absolute;
+    position: relative;
     width: 152px;
     height: 32px;
-    left: 500px;
-    top: 3121px;
+    left: 47%;
+    top: 1821px;
 }
 
 #join {
     position: relative;
+    text-align: center;
     width: 100%;
-    height: 163px;
+    height: 100px;
+    bottom: 100px;
     left: 0px;
-    top: 3937px;
+    top: 2037px;
     background: #FFC78F;
 }
 

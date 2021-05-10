@@ -25,7 +25,8 @@ export default function Board() {
                     </p>
             </div>
 
-                {/* These do not want to work correctly, will need to reassess */}
+            {/* These do not want to work correctly, will need to reassess */}
+            <div id='group-246'>
                 <div id='ellipse-176' className='circle'>
                     <p>Registor your NFT!</p>
                     <label>creators</label>
@@ -38,6 +39,7 @@ export default function Board() {
                     <p>Get started with the SDK</p>
                     <label>devs</label>
                 </div>
+            </div>
 
             {/* Middle section */}
 
@@ -57,16 +59,18 @@ export default function Board() {
                 </div>
 
                 {/* ----------------------------------- */}
-                
+
                 {/* <div id='mission-ops'> */}
-                    <div>
-                        <button id='lower-177' className='circle'></button>
-                        <button id='ellipse-184' className='circle'></button>
-                    </div>
-                    <div>
-                        <h3 id='ops-text-one'>Create and ensure universal, equitable access to quality information</h3>
-                        <h3 id='ops-text-two'>Reward creators directly for the content they produce</h3>
-                    </div>
+                <div id='miss1'>
+                    <button id='lower-177' className='circle'></button>
+                    <h3 id='ops-text-one'>Create and ensure universal, equitable access to quality information</h3>
+                </div>
+
+
+                <div id='miss2'>
+                    <button id='ellipse-184' className='circle'></button>
+                    <h3 id='ops-text-two'>Reward creators directly for the content they produce</h3>
+                </div>
                 {/* </div> */}
 
                 {/* ----------------------------- */}
@@ -100,13 +104,14 @@ export default function Board() {
             {/* Starting lower middle section */}
 
             <div>
-                <div id='value'>
-                    <h3>We Value...</h3>
-                    <p className='text-small'>At Koi, we strive to embody our values and build products around them.</p>
-                </div>
+                
+                    <div id='value'>
+                        <h3>We Value...</h3>
+                        <p className='text-small'>At Koi, we strive to embody our values and build products around them.</p>
+                    </div>
 
-                {/* ----------------------------- */}
-
+                    {/* ----------------------------- */}
+                <div>
                     <div id='ellipse-206-location'>
                         <button className='circle' id='ellipse-206'></button>
                         <h4>Openness</h4>
@@ -119,6 +124,7 @@ export default function Board() {
                         <button className='circle'></button>
                         <h4>Sustainability</h4>
                     </div>
+                </div>
 
                 {/* ----------------------------- */}
 
