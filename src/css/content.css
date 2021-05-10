@@ -9,11 +9,12 @@
 
 #web {
     position: absolute;
-    width: 300%;
-    height: 360px;
+    width: 600px;
+    height: 400px;
     left: 0px;
     top: 0px;
-    background-image: url(../images/Groupweb-vector.svg);   
+    background-image: url(../images/Groupweb-vector.svg);
+
 }
 
 #top-gradient {
