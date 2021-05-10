@@ -1,3 +1,8 @@
+#main-body {
+    max-width: 100%;
+    overflow: hidden;
+}
+
 .circle {
     width: 102px;
     height: 102px;
@@ -116,7 +121,8 @@
 
 #what-koi {
     position: relative;
-    width: 587px;
+    width: 100%;
+    /* overflow: hidden; */
     height: 32px;
     left: 150px;
     top: 556px;
@@ -124,9 +130,10 @@
 
 #group-246 {
     position: relative;
+    max-width: 100%;
     display: flex;
     justify-content: center;
-    left: 300px;
+    left: 600px;
     top: 573px;
 }
 
@@ -162,6 +169,7 @@
     height: 95px;
     left: 30%;
     top: 832px;
+    text-align: center;
 }
 
 /* #mid-content {
