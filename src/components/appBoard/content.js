@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../css/content.css';
 import SwipeCard from '../swipeCard/swipecard.js';
+import Team from '../member/team';
 // import backStyle from '../../css/stylesjs/background';
 
 export default function Board() {
@@ -149,29 +150,25 @@ export default function Board() {
                     {/* ----------------------------- */}
 
                 </div>
-
-                <div id='green-card'>
-                    <p className='text-small'>
-                        If you notice a way in which we could be doing a better job at embodying and promoting these values, please reach out to us.
-                        We are always looking for feedback on our blindspots.
+                <div>
+                    <div id='green-card'>
+                        <p className='text-small'>
+                            If you notice a way in which we could be doing a better job at embodying and promoting these values, please reach out to us.
+                            We are always looking for feedback on our blindspots.
                     </p>
-                    <button href='mailto:hello@openkoi.com'>Get in Touch</button>
-                </div>
-
-                <div id='team'>
-                    <h3>The Koi Team</h3>
-                    <div>
-                        <image />
-                        <h5>Placeholder</h5>
-                        <p>Placeholder</p>
+                        <button href='mailto:hello@openkoi.com'>Get in Touch</button>
                     </div>
-                </div>
 
-                <div id='join'>
-                    <p className='text-small'>
-                        <strong>Want to join the team?</strong>
+                    <div>
+                        <Team />
+                    </div>
+
+                    <div id='join'>
+                        <p className='text-small'>
+                            <strong>Want to join the team?</strong>
                 Email your resume and a few words about why you love Koi and would be a great addition to our team to <a href='mailto:jobs@openkoi.com'>jobs@openkoi.com</a>.</p>
-                    <button href='mailto:jobs@openkoi.com'>Apply</button>
+                        <button href='mailto:jobs@openkoi.com'>Apply</button>
+                    </div>
                 </div>
             </div>
         </div>
