@@ -2,6 +2,7 @@ import React from 'react';
 import '../../css/content.css';
 import SwipeCard from '../swipeCard/swipecard.js';
 import Team from '../member/team';
+import StickyFooter from '../footer/footer';
 // import backStyle from '../../css/stylesjs/background';
 
 export default function Board() {
@@ -163,6 +164,9 @@ export default function Board() {
                         <Team />
                     </div>
 
+
+                </div>
+                <div id='join-footer'>
                     <div id='join'>
                         <p className='text-small'>
                             <strong>Want to join the team?</strong>
@@ -170,7 +174,9 @@ export default function Board() {
                         <button href='mailto:jobs@openkoi.com'>Apply</button>
                     </div>
                 </div>
+                <StickyFooter />
             </div>
         </div>
+
     )
 }

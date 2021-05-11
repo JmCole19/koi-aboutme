@@ -400,9 +400,8 @@
     text-align: center;
     width: 100%;
     height: 100px;
-    bottom: 100px;
+    bottom: 0px;
     left: 0px;
-    top: 1737px;
     background: #FFC78F;
     overflow: hidden;
 }
