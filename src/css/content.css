@@ -1,6 +1,5 @@
 #main-body {
     max-width: 100%;
-    overflow: hidden;
 }
 
 #text-color {
@@ -21,9 +20,9 @@
     width: 600px;
     height: 400px;
     left: 0px;
-    top: 0px;
+    top: 60px;
     background-image: url(../images/Groupweb-vector.svg);
-
+    overflow: hidden;
 }
 
 #top-gradient {
@@ -33,6 +32,7 @@
     left: 0px;
     top: 60px;
     background: linear-gradient(180deg, #BCF3EF 0%, #FFFFFF 100%);
+    overflow: hidden;
 }
 
 #ellipse-181 {
@@ -84,11 +84,11 @@
 }
 
 #title {
-    position: absolute;
+    position: relative;
     width: 458px;
     height: 56px;
-    right: 407px;
-    top: 261px;
+    left: 800px;
+    top: 201px;
     font-family: Catamaran;
     font-style: normal;
     font-weight: 600;
@@ -96,14 +96,15 @@
     line-height: 56px;
     letter-spacing: 0.03em;
     color: #171753;
+    overflow: hidden;
 }
 
 #title-text {
-    position: absolute;
+    position: relative;
     width: 601px;
     height: 72px;
-    right: 264px;
-    top: 321px;
+    left: 800px;
+    top: 171px;
     font-family: Catamaran;
     font-style: normal;
     font-weight: normal;
@@ -111,6 +112,7 @@
     line-height: 36px;
     letter-spacing: 0.03em;
     color: #171753;
+    overflow: hidden;
 }
 
 .text-small {
@@ -128,8 +130,8 @@
     width: 100%;
     /* overflow: hidden; */
     height: 32px;
-    left: 150px;
-    top: 556px;
+    left: 80px;
+    top: 356px;
 }
 
 #group-246 {
@@ -137,8 +139,8 @@
     max-width: 100%;
     display: flex;
     justify-content: center;
-    left: 600px;
-    top: 573px;
+    left: 450px;
+    top: 373px;
 }
 
 #ellipse-176 {
@@ -171,8 +173,8 @@
     position: relative;
     width: 720px;
     height: 95px;
-    left: 30%;
-    top: 832px;
+    left: 24%;
+    top: 632px;
     text-align: center;
 }
 
@@ -189,7 +191,7 @@
     width: 587px;
     height: 32px;
     left: 150px;
-    top: 1010px;
+    top: 710px;
 }
 
 #mission-ops {
@@ -204,17 +206,17 @@
 
 #miss1 {
     position: relative;
-    top: 1080px;
-    left: 1150px;
+    top: 780px;
+    left: 60%;
     flex-direction: column;
     flex: 20%;
 }
 
 #miss2 {
     position: relative;
-    top: 1000px;
+    top: 700px;
     flex: 60%;
-    left: 450px;
+    left: 20%;
     flex-direction: column;
 }
 
@@ -270,7 +272,8 @@
     width: 280px;
     height: 108px;
     left: 159px;
-    top: 1316px;
+    top: 1016px;
+    overflow: hidden;
 }
 
 #special-font {
@@ -295,16 +298,16 @@
     position: relative;
     width: 578px;
     height: 140px;
-    left: 60%;
-    top: 1176px;
+    left: 56%;
+    top: 876px;
 }
 
 #value {
     position: relative;
     width: 587px;
     height: 32px;
-    left: 33%;
-    top: 1333px;
+    left: 28%;
+    top: 933px;
     text-align: center;
 }
 
@@ -313,7 +316,7 @@
     width: 658px;
     height: 28px;
     right: 247px;
-    top: 2081px;
+    top: 981px;
     text-align: center;
 }
 
@@ -323,21 +326,21 @@
 
 #ellipse-206-location {
     position: relative;
-    left: 633px;
-    top: 1413px;
+    left: 383px;
+    top: 1013px;
     /* box-shadow: 0px 2px 24px 3px rgba(255, 165, 75, 0.75); */
 }
 
 #ellipse-201 {
     position: relative;
-    left: 875px;
-    top: 1250px;
+    left: 635px;
+    top: 850px;
 }
 
 #ellipse-202 {
     position: relative;
-    left: 1117px;
-    top: 1083px;
+    left: 887px;
+    top: 683px;
 }
 
 #swipe-card {
@@ -345,18 +348,19 @@
     width: 100%;
     height: 188px;
     left: 0px;
-    top: 2569px;
+    top: 2469px;
     text-align: center;
     background: #FFFFFF;
     box-shadow: 0px 2px 24px 2px rgba(0, 0, 0, 0.16);
+    overflow: hidden;
 }
 
 #create-card {
     position: relative;
     width: 720px;
     height: 112px;
-    left: 31%;
-    top: 1485px;
+    left: 25%;
+    top: 1085px;
     text-align: center;
 }
 
@@ -366,8 +370,9 @@
     width: 100%;
     height: 100px;
     left: 0px;
-    top: 3073px;
+    top: 2973px;
     background: #9BE7C4;
+    overflow: hidden;
 }
 
 #team {
@@ -375,7 +380,7 @@
     width: 152px;
     height: 32px;
     left: 47%;
-    top: 1821px;
+    top: 1421px;
 }
 
 #join {
@@ -385,8 +390,13 @@
     height: 100px;
     bottom: 100px;
     left: 0px;
-    top: 2037px;
+    top: 1737px;
     background: #FFC78F;
+    overflow: hidden;
+}
+
+#bottom {
+    align-content: center;
 }
 
 /* #footer {
