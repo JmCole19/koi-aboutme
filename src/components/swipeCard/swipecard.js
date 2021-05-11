@@ -8,6 +8,7 @@ import Tab from '@material-ui/core/Tab';
 import TabContext from '@material-ui/lab/TabContext';
 import TabList from '@material-ui/lab/TabList';
 import TabPanel from '@material-ui/lab/TabPanel';
+import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -36,6 +37,7 @@ export default function SwipeCard() {
                 <TabPanel value="2">
                     Accessibility is often used as a catch-all for “We care about people!” While we definitely do care about people, we see accessibility in a bigger scope. Yes, we are actively and constantly working to make our products more usable for people of all abilities. But we are also focusing on how Koi can empower equitable access to information around the world. 
                     We also started the Koi Foundation to help people with great ideas build innovative new projects on Koi, regardless of access to other funding.
+                    <Button className="button-purple" href="button should go to: https://docs.google.com/forms/d/e/1FAIpQLSeC9Qyc4lQrKSW6_92knIE_Ko7Kd_z5g1thT0FFD0qsD7HwVw/viewform"></Button>
                 </TabPanel>
                 <TabPanel value="3">
                     One big criticism of popular blockchains is that they are terrible for the environment. Proof of Work  requires an enormous amount of energy. At Koi, we developed a new verification method, Proof of Real Traffic, to engage all the benefits of blockchain without such environmental harm. 
